@@ -40,7 +40,7 @@ const formatClass = (cl) => {
   } else if (cl == G_CL_RANGED) {
     return 'Ranged';
   } else if (cl == G_CL_AUTO_AIM) {
-    return 'Auto-aim';
+    return 'Auto-Aim';
   } else if (cl == G_CL_MINION) {
     return 'Minion';
   } else if (cl == G_CL_SPECIAL) {
