@@ -136,6 +136,7 @@ const mapToLevelBySip = (base, to, sip) => {
       delta += delta2;
     }
     return base;
+    
     /*
     const kMultipliers = [0, 1, 1.1916, 1.4499, 1.7748, 2.1664, 2.6247, 3.1496, 3.7413, 4.3996, 5.1245, 5.9162, 6.7744, 7.6994, 8.6911, 9.7495];
     return Math.floor(base * kMultipliers[to]);
