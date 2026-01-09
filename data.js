@@ -61,6 +61,7 @@ const SLOT_202 = {weapon: 2, wheel: 0, gadget: 2};
 const SLOT_203 = {weapon: 2, wheel: 0, gadget: 3};
 const SLOT_221 = {weapon: 2, wheel: 2, gadget: 1};
 const SLOT_222 = {weapon: 2, wheel: 2, gadget: 2};
+const SLOT_223 = {weapon: 2, wheel: 2, gadget: 3};
 const SLOT_232 = {weapon: 2, wheel: 3, gadget: 2};
 const SLOT_233 = {weapon: 2, wheel: 3, gadget: 3};
 const SLOT_321 = {weapon: 3, wheel: 2, gadget: 1};
