@@ -42,6 +42,7 @@ const G_SP_SPORTY = 'group_sp_sporty';
 
 // Bonus
 const BONUS_BODY_10 = {c: G_BODY, p: 10};
+const BONUS_BODY_20 = {c: G_BODY, p: 20};
 const BONUS_WEAPON_10 = {c: G_WEAPON, p: 10};
 const BONUS_WEAPON_15 = {c: G_WEAPON, p: 15};
 const BONUS_WHEEL_10 = {c: G_WHEEL, p: 10};
@@ -317,6 +318,10 @@ addItem({n: CUTTER, nEn: 'Cutter', nZh: '切割机', nJa: 'カッター', c: G_B
 
 
 // Weapons R6
+
+const KITTY_ORB = 'kitty_orb';
+addItem({n: KITTY_ORB, nEn: 'Kitty Orb', nZh: '凯蒂球', nJa: 'キティオーブ', c: G_WEAPON, r: G_R6, s: G_SP_MECHA, atk1: 12675, mHp1: 35000, power: -10, cl: G_CL_MINION, b: BONUS_BODY_20});
+
 const HAIRBALL_THROWER = 'hairball_thrower';
 addItem({n: HAIRBALL_THROWER, nEn: 'Hairball Thrower', nZh: '毛球投掷机', nJa: '毛玉シューター', c: G_WEAPON, r: G_R6, s: G_SP_MECHA, atk1: 9000, power: -10, cl: G_CL_RANGED, b: BONUS_BODY_10});
 
