@@ -650,6 +650,9 @@ addItem({n: DOZER_GUIDE_KNOB, nEn: 'Dozer Guide Knob', nZh: '推土机导柄', n
 
 
 // Gadgets R6
+const COSMIC_TEAPOT = 'cosmic_teapot';
+addItem({n: COSMIC_TEAPOT , nEn: 'Cosmic Teapot', nZh: '宇宙茶壺', nJa: '宇宙のティーポット', c: G_GADGET, r: G_R6, s: G_SP_GLUTTONY, hp1: 10000, power: 20, cl: G_CL_SPECIAL});
+
 const SLUGSNOT = 'slug_snot';
 addItem({n: SLUGSNOT , nEn: 'Slug Snot', nZh: '鼻涕虫黏液', nJa: 'ナメクジの粘液', c: G_GADGET, r: G_R6, s: G_SP_NATURALIS, hp1: 20072, power: 5, cl: G_CL_RANGED});
 
